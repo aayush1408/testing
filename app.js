@@ -4,4 +4,6 @@ const app = express();
 app.get('/', (req, res) => {
 	res.send('hello');
 });
-app.listen('2000');
+app.listen('2000', () => {
+	console.log('runnin on 2000');
+});
